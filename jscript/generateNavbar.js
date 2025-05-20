@@ -1,11 +1,11 @@
 function generateNavbar() {
     return `
 <section id="navigation_bar">
+<a href="../pages/site.html" style="float:left;background-color:black;padding:7px;">
+    <img src="../assets/head-icon.png" style="width:32px;height:32px">
+</a>
     <ul>
-        <li><a href="../pages/site.html">
-            <img src="../assets/head-icon.png" style="width:14px;height:14px">
-        </a></li>
-        <li><a href="#About">About</a></li>
+        <li><a href="../pages/about.html">About</a></li>
         <li>
             <div class="dropdown">
                 <button class="dropbtn">Generator</button>
@@ -20,8 +20,8 @@ function generateNavbar() {
             <div class="dropdown">
                 <button class="dropbtn">Tutorials</button>
                 <div class="dropdown-content">
-                    <a href="#mrstutor">MRSCRIPT</a>
-                    <a href="#dmstutor">DMS</a>
+                    <a href="../pages/tutorial-mrscript.html">MRSCRIPT</a>
+                    <a href="../pages/tutorial-dms.html">DMS</a>
                     <a href="#crunchtutor">CRUNCH</a>
                 </div>
             </div>
