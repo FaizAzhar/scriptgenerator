@@ -1,10 +1,11 @@
+/* Basic background and font family */
 body {
     background-color: darkslategray;
     color: white;
     font-family: arial;
 }
 
-/* For navigation */
+/* For Menu Bar */
 ul {
 list-style-type: none;
 margin: 0;
@@ -51,3 +52,5 @@ background-color: #757575;
 .dropdown:hover .dropbtn{
     background-color: #757575;
 }
+
+/* End Menu Bar*/
